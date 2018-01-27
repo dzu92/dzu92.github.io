@@ -1,0 +1,164 @@
+/* font-family: "FuturaPTBold.otf"; */
+@font-face {
+	font-family: "FuturaPTBold";
+	src: url("../fonts/FuturaPTBold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTBook.otf"; */
+@font-face {
+	font-family: "FuturaPTBook";
+	src: url("../fonts/FuturaPTBook.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTDemi.otf"; */
+@font-face {
+	font-family: "FuturaPTDemi";
+	src: url("../fonts/FuturaPTDemi.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTHeavy.otf"; */
+@font-face {
+	font-family: "FuturaPTHeavy";
+	src: url("../fonts/FuturaPTHeavy.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTLight.otf"; */
+@font-face {
+	font-family: "FuturaPTLight";
+	src: url("../fonts/FuturaPTLight.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTMedium.otf"; */
+@font-face {
+	font-family: "FuturaPTMedium";
+	src: url("../fonts/FuturaPTMedium.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTBoldOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTBoldOblique";
+	src: url("../fonts/FuturaPTBoldOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTBookOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTBookOblique";
+	src: url("../fonts/FuturaPTBookOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondBold.otf"; */
+@font-face {
+	font-family: "FuturaPTCondBold";
+	src: url("../fonts/FuturaPTCondBold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondBook.otf"; */
+@font-face {
+	font-family: "FuturaPTCondBook";
+	src: url("../fonts/FuturaPTCondBook.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondMedium.otf"; */
+@font-face {
+	font-family: "FuturaPTCondMedium";
+	src: url("../fonts/FuturaPTCondMedium.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTDemiOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTDemiOblique";
+	src: url("../fonts/FuturaPTDemiOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTExtraBold.otf"; */
+@font-face {
+	font-family: "FuturaPTExtraBold";
+	src: url("../fonts/FuturaPTExtraBold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTHeavyOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTHeavyOblique";
+	src: url("../fonts/FuturaPTHeavyOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTLightOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTLightOblique";
+	src: url("../fonts/FuturaPTLightOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTMediumOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTMediumOblique";
+	src: url("../fonts/FuturaPTMediumOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondBoldOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTCondBoldOblique";
+	src: url("../fonts/FuturaPTCondBoldOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondBookOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTCondBookOblique";
+	src: url("../fonts/FuturaPTCondBookOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondExtraBold.otf"; */
+@font-face {
+	font-family: "FuturaPTCondExtraBold";
+	src: url("../fonts/FuturaPTCondExtraBold.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTExtraBoldOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTExtraBoldOblique";
+	src: url("../fonts/FuturaPTExtraBoldOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondMediumOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTCondMediumOblique";
+	src: url("../fonts/FuturaPTCondMediumOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FuturaPTCondExtraBoldOblique.otf"; */
+@font-face {
+	font-family: "FuturaPTCondExtraBoldOblique";
+	src: url("../fonts/FuturaPTCondExtraBoldOblique.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: 'iconmoon';
+  src:  url('../libs/fonts-icomoon/iconmoon.eot?eehkoa');
+  src:  url('../libs/fonts-icomoon/iconmoon.eot?eehkoa#iefix') format('embedded-opentype'),
+    url('../libs/fonts-icomoon/iconmoon.ttf?eehkoa') format('truetype'),
+    url('../libs/fonts-icomoon/iconmoon.woff?eehkoa') format('woff'),
+    url('../libs/fonts-icomoon/iconmoon.svg?eehkoa#iconmoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
