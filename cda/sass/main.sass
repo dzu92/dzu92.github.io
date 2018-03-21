@@ -1,0 +1,543 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: $white
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	// background-color: #2E2C2D
+	input, textarea
+			outline: none
+
+header, section
+	position: relative
+	background-size: cover
+
+.imgResponsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.textCenter
+	text-align: center
+
+%textStyle
+	font-size: 15px
+	font-weight: 400
+	line-height: 24px
+
+%widthInherit
+	width: inherit
+
+%mrpd0
+	margin: 0
+	padding: 0
+
+.h2
+	font-family: GothamMedium
+	font-size: 38px
+	line-height: 45px
+	color: $white
+	text-transform: uppercase
+
+.h3
+	font-family: GothamMedium
+	text-transform: uppercase
+	font-size: 25px
+	line-height: 36px
+
+.h4
+	font-family: GothamMedium
+	font-size: 18px
+	text-transform: uppercase
+
+.wrapperH2
+	margin-top: 170px
+
+.wrapperH2-strong
+	font-family: RobotoCondensedRegular
+	font-size: 247px
+	line-height: 210px
+	color: $white
+	text-transform: uppercase
+	opacity: 0.18
+	position: absolute
+	top: 23%
+	left: 0
+	right: 0
+
+.wrapperH4__p
+	font-size: 15px
+	line-height: 24px
+	max-height: 70px
+	overflow-y: hidden
+
+.wrapperFlex
+	height: 100%
+	display: flex
+	align-items: center
+
+.sHeaderStrong
+	font-size: 30px
+	line-height: 37px
+	font-weight: 400
+	margin-bottom: 40px
+	display: block
+	white-space: nowrap
+
+.header
+	background-image: url('../img/top.png')
+	background-repeat: no-repeat
+	background-color: #2E2C2D
+	height: 100vh
+	min-height: 640px
+	overflow: hidden
+
+.headerTop
+	padding-top: 22px
+	padding-bottom: 18px
+	border-bottom: 2px solid #626262
+
+.logo
+	display: block
+	img
+		height: 67px
+		width: 67px
+
+.headerNav
+	padding-top: 15px
+
+.headerMenu
+	list-style-type: none
+	@extend %mrpd0
+	font-family: MyriadProRegular
+	font-size: 20px
+	font-weight: 400
+	white-space: nowrap
+	li
+		display: inline-block
+		margin-right: 39px
+		&:last-child
+			margin-right: 0px
+		a
+			color: #f5f5f5
+			text-decoration: none
+			opacity: 1
+			&:hover
+				padding-bottom: 38px
+				border-bottom: 4px solid $accent
+				opacity: .7
+		
+.headerIcons
+	padding-top: 20px
+	a
+		margin-right: 15px
+		.svg-inline--fa
+			color: #f5f5f5
+			opacity: 0.7
+			&:last-child
+				margin-right: 0px
+			&:hover
+				opacity: 1
+				cursor: pointer
+				transition: .25s ease
+
+.wrapperH1
+	margin: 165px 0 78px 0
+	.h1
+		color: #f5f5f5
+		font-family: GothamBold
+		font-weight: 700
+		font-size: 125px
+		text-transform: uppercase
+		margin: 0
+		line-height: 1;
+	strong
+		font-family: GothamMedium
+		font-size: 25px
+		color: $accent
+		letter-spacing: 14px
+		text-transform: uppercase
+		white-space: nowrap
+		
+
+.btnDown
+	a
+		color: $white
+		border: 1px solid $white
+		border-radius: 50%
+		padding: 15px 25px
+		position: relative
+		.fa-angle-double-down
+			opacity: 0
+			position: absolute
+			left: 50%
+			top: 50%
+			transform-origin: 50% 50%
+			transform: translate3d(-50%, -50%, 0)
+			animation: arrow-movement 2s ease-in-out infinite
+			@keyframes arrow-movement
+				0%
+					opacity: 0
+					top: 35%
+				80%
+					opacity: 1
+					top: 65%
+				100%
+					opacity: 0
+		// .fa-angle-down-2
+		// 	animation: arrow-movement 2s ease-in-out infinite
+
+	p
+		font-family: OpenSansRegular
+		font-size: 13px
+		line-height: 22px
+		color: $white
+
+.navHamburger
+	text-align: right
+	position: relative
+	top: 10px
+	button
+		&:focus, &:active
+			outline: none
+	.hamburger
+		&:hover
+			opacity: 1
+		.hamburger-box
+			height: 18px
+	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before
+		background-color: $white
+	.dropdown-toggle
+		padding: 10px
+	.dropdown
+		display: none
+		position: relative
+		padding: 0
+		right: 10%
+		text-align: center
+		z-index: 10
+		margin-top: 15px
+		li
+			list-style-type: none
+			padding: 5px
+			a
+				text-decoration: none
+				color: $white
+				opacity: 1
+				cursor: pointer
+				padding: 5px
+				letter-spacing: 2px
+				&:hover
+					border-bottom: 4px solid $accent
+					opacity: .6
+					transition: .25s ease
+
+.sFeature
+	background-color: $accent
+	.wrapperH2
+		margin-bottom: 150px
+		white-space: nowrap
+
+.sFeature-item
+	color: $white
+	padding-bottom: 130px
+
+	.sFeature__icon
+		background-color: #2e85aa
+		width: 133px
+		height: 133px
+		margin: 0 auto
+		align-items: center
+		display: flex
+		justify-content: center
+		border-radius: 100%
+		margin-bottom: 25px
+
+.sDescription
+	.imgResponsive
+		width: 100%
+
+.sDescription__item-1
+	background-color: $txt-color
+	color: $white
+	background-repeat: no-repeat
+
+
+.sDescription__item-2
+	background-color: #F3F3F3
+	color: $txt-color
+	.sDescription__contImg
+		overflow: hidden
+
+.aDescription
+	padding-top: 80px
+
+.aDescription__date
+	font-size: 13px
+
+.aDescription__post_p
+	font-size: 15px
+	padding-right: 119px
+	overflow-y: hidden
+	max-height: 185px
+	padding-bottom: 80px
+
+.aDescription__date
+	.spanDate
+		margin-right: 10px
+	.spanName
+		margin-left: 10px
+
+.sBlog, .sTeam
+	.h2
+		color: $dark
+	.wrapperH2
+		margin-bottom: 100px
+		white-space: nowrap
+	.wrapperH2-strong
+		color: #D7D7D7
+
+.sBlogItem__img
+	margin-bottom: 45px
+
+.sBlogItem__text
+	padding-bottom: 130px
+
+.sBlogItem__strong
+	font-family: GothamMedium
+	font-size: 18px
+	line-height: 36px
+	font-weight: 500
+	color: $accent
+	text-transform: uppercase
+	white-space: nowrap
+
+.sBlogItem__p
+	@extend %textStyle
+	max-height: 140px
+	overflow-y: hidden
+	color: $txt-color
+
+.sSheet
+	background-color: $accent
+	color: $white
+
+.sSheet__txt_p
+	@extend %textStyle
+	max-height: 93px
+	overflow-y: hidden
+
+.sSheet__icon, .sSheet__txt
+	padding-top: 115px
+	padding-bottom: 155px
+
+.sResponsive
+	background-image: url('../img/responsive.png')
+	color: $white
+	height: 100vh
+	display: flex
+	align-items: center
+	min-height: 700px
+	overflow: hidden
+	background-color: #2E2C2D
+	p
+		@extend %textStyle
+
+.sResponsiveTxt__p
+	max-height: 92px
+	overflow-y: hidden
+	margin-bottom: 68px
+
+.sResponsiveLine
+	p
+		background-color: $accent
+		height: 38px
+		padding: 7px 0 15px 19px
+		&:nth-child(1)
+			width: 80%
+		&:nth-child(2)
+			width: 90%
+
+.sTeamItem
+	position: relative
+	display: flex
+	justify-content: center
+	align-items: flex-end
+	margin-bottom: 120px
+
+.sTeamName
+	position: absolute
+	background-color: $white
+	padding: 23px 40px
+	bottom: -13%
+	strong
+		text-transform: uppercase
+		display: block
+		font-size: 20px
+		color: $accent
+		font-family: GothamMedium
+		font-weight: 500
+		white-space: nowrap
+	span
+		font-family: GothamMedium
+		color: $dark
+		font-size: 15px
+		font-weight: 500
+
+.sForm
+	background-image: url('../img/formBcg.png')
+	padding-bottom: 100px
+	position: relative
+	.wrapperH2
+		margin-bottom: 150px
+
+.form
+	input, textarea
+		border: 1px solid $white
+		background-color: transparent
+		width: 100%
+		color: $white
+		padding: 15px 20px 15px 20px
+		margin-bottom: 35px
+		opacity: 0.7
+		&:focus
+			border: 2.5px solid $white
+			opacity: 1
+	.button
+		display: inline-block
+		border: none
+		color: #fff
+		text-decoration: none
+		background-color: $accent
+		padding: 15px 72px
+		text-transform: uppercase
+		font-weight: 600
+		letter-spacing: 3px
+		border-radius: 2px
+		text-align: center
+		position: relative
+		outline: none
+		transition: background-color .1s ease
+		cursor: pointer
+		&:focus, &:hover
+			text-decoration: none
+			color: #fff
+		&:hover
+			background-color: lighten($accent, 5%)
+			&::after
+				opacity: .22
+		&:active
+			background-color: darken($accent, 5%)
+			&::after
+				opacity: .32
+
+.sMap
+	display: flex
+
+.footer
+	background-color: $txt-color
+	color: $white
+	font-size: 13px
+	font-family: RobotoRegular
+	min-height: 120px
+	display: flex
+	align-items: center
+	white-space: nowrap
+	.contacts, .footerTxt
+		display: flex
+		align-items: center
+		height: 100%
+		span, a
+			margin-right: 10px
+			&:last-child
+				margin-right: 0
+		a
+			opacity: 0.7
+			&:hover
+				opacity: 1
+
+.scrollTop
+	position: fixed
+	bottom: 25px
+	right: -100px
+	z-index: 10
+	color: $dark
+	border-radius: 50%
+	padding: 32px 35px
+	cursor: pointer
+	background-color: $dark
+	opacity: .7
+	transition: all .3s ease
+	&:hover
+		opacity: 1
+	.fa-angle-double-up
+		color: $white
+		position: absolute
+		left: 50%
+		top: 50%
+		transform-origin: 50% 50%
+		transform: translate3d(-50%, -50%, 0)
+		animation: arrow-movement 2s ease-in-out infinite
+		@keyframes arrow-movement
+			0%
+				opacity: 0
+				top: 35%
+			80%
+				opacity: 1
+				top: 65%
+			100%
+				opacity: 0
+	&.active
+		right: 25px
+
+.succes
+	display: none
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	margin: auto
+	z-index: 12
+	color: $white
+	font-size: 50px
+	align-items: center
+	justify-content: center
+	text-transform: uppercase
+	& ~ *
+		transition: all .5s ease
+	&.active
+		& ~ *
+			filter: blur(10px)
+			opacity: .5
+
+
+.fa-vk
+	color: #5082BA
+.fa-whatsapp
+	color: #2CC54E
+.fa-telegram
+	color: #2DA4E1
+.fa-instagram
+	color: #F04A5C
+.fa-envelope
+	color: #5181B8
+.fa-skype
+	color: #01A3DE
+
+@import "media" // Always at the end
